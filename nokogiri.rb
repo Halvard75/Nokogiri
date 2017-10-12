@@ -15,8 +15,6 @@ urls = doc.search('a.lientxt').map { |tag|
   }
   puts "http://annuaire-des-mairies.com/hauts-de-seine.html/ + #{urls}\n"
 
-
-
 =begin
 # Fetch and parse HTML document
 doc = Nokogiri::HTML(open('http://annuaire-des-mairies.com/92/sceaux.html'))
